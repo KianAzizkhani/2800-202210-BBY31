@@ -177,7 +177,7 @@ How to Run the project:
 
 2. Clone the project from github by running the command "git clone https://github.com/KianAzizkhani/2800-202210-BBY31.git" from your command line.
 
-3. Open the project with VSCode, open the IDE's terminal and run the command - "npm install nodemon express express-session path mongoose multer http socket.io socket.io-client nodemailer bcrypt"
+3. Open the project with VSCode, open the IDE's terminal and run the command - "npm install nodemon express express-session path mongoose multer socket.io socket.io-client nodemailer bcrypt"
 
 4. - Create a new file in the public project directory and call it '.env'. 
 
