@@ -28,146 +28,146 @@ Frontend - HTML, CSS
 Backend - Node.js, JavaScript, jQuery, Ajax,  MongoDB Altlas,  Git, Heroku
 Node.js Modules - Nodemon, Express.js, Express-session, Path, Mongoose, Multer, Http, Socket.io, Nodemailer, Bcrypt
 
-File Contents:
-.env
-│   .gitignore
-│   package-lock.json
-│   package.json
-│   README.md
-│   server.js
-│
-├───data
-│       carts.json
-│       dms.json
-│       users.json
-│
-├───html
-│       404.html
-│       admin-dashboard.html
-│       chat-session.html
-│       checkout.html
-│       edit-account.html
-│       index.html
-│       login.html
-│       my-patients.html
-│       order-history.html
-│       privacypolicy.html
-│       sign-up.html
-│       termsandconditions.html
-│       thank-you.html
-│       therapists.html
-│       userprofile.html
-│
-├───models
-│       BBY_31_messages.js
-│       BBY_31_shoppingCarts.js
-│       BBY_31_users.js
-│
-└───public
-    ├───css
-    │       404.css
-    │       account.css
-    │       admin-dashboard.css
-    │       chat-session.css
-    │       checkout.css
-    │       edit-account.css
-    │       home.css
-    │       login.css
-    │       my-patients.css
-    │       order-history.css
-    │       privacy-terms.css
-    │       responsive.css
-    │       signup.css
-    │       style.css
-    │       thank-you.css
-    │       therapists.css
-    │
-    ├───images
-    │       batman.mp3
-    │       batman.png
-    │       checkout.jpg
-    │       heart-pulse.svg
-    │       hero.jpg
-    │       hero2.jpg
-    │       home.jpg
-    │       login-graphic.svg
-    │       logo-bl.svg
-    │       logo-wh.svg
-    │       logo.png
-    │       logo.svg
-    │       orderhistory.jpg
-    │       placeholder-background.jpg
-    │       placeholder-profile.jpg
-    │       radial-bg.svg
-    │       send.svg
-    │       signup.svg
-    │       thankyou.svg
-    │       therapist1.jpg
-    │       therapist2.jpg
-    │
-    ├───js
-    │       account.js
-    │       admin-dashboard.js
-    │       checkout.js
-    │       home.js
-    │       index.js
-    │       login.js
-    │       main.js
-    │       my-patients.js
-    │       order-history.js
-    │       sign-up.js
-    │       thank-you.js
-    │       therapists.js
-    │
-    ├───originaljs
-    │       account.js
-    │       admin-dashboard.js
-    │       checkout.js
-    │       index.js
-    │       login.js
-    │       main.js
-    │       my-patients.js
-    │       order-history.js
-    │       sign-up.js
-    │       thank-you.js
-    │       therapists.js
-    │
-    ├───temp
-    │       chatbox.html
-    │       footer.html
-    │       nav.html
-    │
-    └───uploads
-        │   0626_celeb100-jackie-chan_1200x675.jpg
-        │   0ea012b1d902c41fecb41ccb572b2414.jpg
-        │   1652122795955lolgta.jpg
-        │   1652132667558gta5.png
-        │   1652217561891cool-profile-pic-matheus-ferrero.jpeg
-        │   1652217690008askdaskdj.jpg
-        │   1652240942593carly_orr_web.jpg
-        │   1652242555319carly_orr_web.jpg
-        │   1652297874730carly_orr_web.jpg
-        │   1652985706882MDot-TheOffice-640x360-MP.jpg
-        │   1653071362456Screenshot_1.png
-        │   6f979ad64096012948b281ce187c59812e30c3ac.png
-        │   as.jpg
-        │   askdaskdj.jpg
-        │   cool-profile-pic-matheus-ferrero.jpeg
-        │   gettyimages-1061959920.jpg
-        │   hero.jpg
-        │   hero2.jpg
-        │   home.jpg
-        │   image.jpg
-        │   placeholder-profile.jpg
-        │   Screenshot_20220507-153952_Gallery.jpg
-        │   tXHWkXQxaRPZwzX2AwmKTJ-1200-80.jpg
-        │
-        ├───banners
-        │       placeholder-background.jpg
-        │       testtest.png
-        │
-        └───profileCover
-
+File Contents:</br>
+.env</br>
+│   .gitignore</br>
+│   package-lock.json</br>
+│   package.json</br>
+│   README.md</br>
+│   server.js</br>
+│</br>
+├───data</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carts.json</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dms.json</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;users.json</br>
+│</br>
+├───html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;404.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;admin-dashboard.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chat-session.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;checkout.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;edit-account.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;login.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;my-patients.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;order-history.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;privacypolicy.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sign-up.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;termsandconditions.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thank-you.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;therapists.html</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;userprofile.html</br>
+│</br>
+├───models</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BBY_31_messages.js</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BBY_31_shoppingCarts.js</br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BBY_31_users.js</br>
+│</br>
+└───public</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       404.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       account.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       admin-dashboard.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       chat-session.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       checkout.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       edit-account.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       home.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       login.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       my-patients.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       order-history.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       privacy-terms.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       responsive.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       signup.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       style.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       thank-you.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       therapists.css</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───images</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       batman.mp3</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       batman.png</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       checkout.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       heart-pulse.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       hero.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       hero2.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       home.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       login-graphic.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       logo-bl.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       logo-wh.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       logo.png</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       logo.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       orderhistory.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       placeholder-background.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       placeholder-profile.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       radial-bg.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       send.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       signup.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       thankyou.svg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       therapist1.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       therapist2.jpg</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       account.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       admin-dashboard.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       checkout.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       home.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       index.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       login.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       main.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       my-patients.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       order-history.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       sign-up.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       thank-you.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       therapists.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───originaljs</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       account.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       admin-dashboard.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       checkout.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       index.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       login.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       main.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       my-patients.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       order-history.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       sign-up.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       thank-you.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       therapists.js</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───temp</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       chatbox.html</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       footer.html</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       nav.html</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───uploads</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   0626_celeb100-jackie-chan_1200x675.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   0ea012b1d902c41fecb41ccb572b2414.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652122795955lolgta.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652132667558gta5.png</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652217561891cool-profile-pic-matheus-ferrero.jpeg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652217690008askdaskdj.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652240942593carly_orr_web.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652242555319carly_orr_web.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652297874730carly_orr_web.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1652985706882MDot-TheOffice-640x360-MP.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   1653071362456Screenshot_1.png</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   6f979ad64096012948b281ce187c59812e30c3ac.png</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   as.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   askdaskdj.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   cool-profile-pic-matheus-ferrero.jpeg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   gettyimages-1061959920.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   hero.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   hero2.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   home.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   image.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   placeholder-profile.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   Screenshot_20220507-153952_Gallery.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   tXHWkXQxaRPZwzX2AwmKTJ-1200-80.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├───banners</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       placeholder-background.jpg</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│       testtest.png</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└───profileCover</br>
+</br>
 How to Run the project:
 
 1. Install:
